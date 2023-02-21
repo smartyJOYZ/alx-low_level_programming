@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - A program that determines if a number is positive,zero or negative
- * Return : Always 0 (success)
+ * main - Entry point
+ * Description: A program that determines if a number is +ve,0 or -ve
+ * Return: Always 0 (Success)
  */
 
 int main(void)
