@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main-A program that assigns a random number to the variable n
- * Return : 0 success
+ * main - A program that determines if a number is positive,zero or negative
+ * Return : Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
@@ -12,15 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	{
 		printf("%d is positve\n", n);
-	} else if (n == 0)
-	{
+	else if (n == 0)
 		printf("%d is zero\n", n);
-	} else
-	{
+	else
 		printf("%d is negative\n", n);
-	}
 	return (0);
 }
-	
