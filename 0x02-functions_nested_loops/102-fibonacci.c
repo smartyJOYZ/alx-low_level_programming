@@ -14,14 +14,14 @@ int main(void)
 
 	while (count < 50)
 	{
+		c = a + b;
+		a = b;
+		b = c;
 		if (count == 49)
 			printf("%lu\n", c);
 		else
 		{
-		c = a + b;
 		printf("%lu, ", c);
-		a = b;
-		b = c;
 		}
 		count++;
 	}
