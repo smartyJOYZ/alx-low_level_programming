@@ -17,9 +17,9 @@ int main(void)
 		c = a + b;
 		a = b;
 		b = c;
-		if (c <= 4000000 && c % 2 == 0)
+		if (a < 4000000 && a % 2 == 0)
 		{
-			sum += c;
+			sum += a;
 			printf("%lu\n", sum);
 		}
 		count++;
