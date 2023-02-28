@@ -9,12 +9,12 @@
 int main(void)
 {
 	unsigned long a = 1;
-	unsigned long b = 2, c, sum;
-	int count = 0;
+	unsigned long b = 2, c, sum = 0;
+	int count = 1;
 
 	while (count <= 33)
 	{
-		if (a < 4000000 && a % 2 == 0)
+		if (a < 4000000 && (a % 2) == 0)
 		{
 			sum += a;
 		}
