@@ -23,7 +23,7 @@ int main(void)
 		a = b;
 		b = c;
 		}
+		count++;
 	}
-	count++;
 	return (0);
 }
