@@ -8,17 +8,21 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b = 1;
-	int c;
+	unsigned long int a = 0;
+	unsigned long int b = 1, 
 	int count = 0;
 
 	while (count < 50)
 	{
+		if (count == 49)
+			printf("%lu\n", c);
+		else
+		{
 		c = a + b;
-		printf("%d\n", c);
+		printf("%lu, ", c);
 		a = b;
 		b = c;
+		}
 	}
 	count++;
 	return (0);
