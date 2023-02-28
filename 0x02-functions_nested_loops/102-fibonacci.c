@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-	int a = 1;
-	int b = 2;
+	int a = 0;
+	int b = 1;
 	int c;
 	int count = 0;
 
 	while (count < 50)
 	{
 		c = a + b;
-		printf("%d + %d = %d\n", a, b, c);
+		printf("%d\n", c);
 		a = b;
 		b = c;
 	}
