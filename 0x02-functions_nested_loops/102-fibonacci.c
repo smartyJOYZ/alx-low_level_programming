@@ -17,9 +17,9 @@ int main(void)
 	{
 		c = a + b;
 		printf("%d + %d = %d\n", a, b, c);
+		a = b;
+		b = c;
 	}
-	a = b;
-	b = c;
 	count++;
 	return (0);
 }
