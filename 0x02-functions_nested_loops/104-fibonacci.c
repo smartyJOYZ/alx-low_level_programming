@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	unsigned long int a = 1, b = 2, c;
-	unsigned long int a1, a2, b1, b2, l = 1000000000;
+	unsigned long a = 1, b = 2, c;
+	unsigned long a1, a2, b1, b2, l = 1000000000;
 	int i, count = 0;
 
 	printf("%lu", a);
