@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-	unsigned long a = 0;
-	unsigned long b = 1, c, sum;
+	unsigned long a = 1;
+	unsigned long b = 2, c, sum;
 	int count = 0;
 
 	while (count <= 33)
 	{
-		c = a + b;
-		a = b;
-		b = c;
 		if (a < 4000000 && a % 2 == 0)
 		{
 			sum += a;
 		}
-		printf("%lu\n", sum);
+		c = a + b;
+		a = b;
+		b = c;
 		count++;
 	}
+	printf("%lu\n", sum);
 	return (0);
 }
