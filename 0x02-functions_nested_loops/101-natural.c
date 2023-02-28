@@ -15,8 +15,8 @@ int main(void)
 		if (i % 3 == 0 || i % 5 == 0)
 		{
 			n += i;
-			_putchar(n + '0');
 		}
-		_putchar('\n');
 	}
+	printf("%d\n", n);
+	return (0);
 }
