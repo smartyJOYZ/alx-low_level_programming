@@ -2,8 +2,7 @@
 
 /**
  * main - prints numbers from 1 to 100
- * descriptiion:
- *
+ * descriptiion: a
  * Return: Always 0 (Success)
  */
 
