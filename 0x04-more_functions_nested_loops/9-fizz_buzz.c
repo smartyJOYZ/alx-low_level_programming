@@ -8,44 +8,34 @@
 
 int main(void)
 {
-	int i, j;
+	int i;
 
-	if (size <= 0)
+	for (i = 1; i < 100; i++)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (i = 1; i < 100; i++)
+		if (i == 100)
+			_putchar('buzz');
+		else if (i % 3 == 0)
 		{
-			if (i == 100)
-				_putchar('buzz');
-			else if (i % 3 == 0)
-			{
-				_putchar('Fizz');
-				_putchar(' ');
-			}
-			else if (i % 5 == 0)
-			{
-				_putchar('Buzz');
-				_putchar(' ');
-			}
-			else if (i % 3 == 0 && i % 5 == 0)
-			{
-				_putchar('FizzBuzz');
-				_putchar(' ');
-			}
-			else if (i < 10)
-			{
-				_putchar(i + '0');
-				_putchar(' ');
-			}
-			else if (i > 10)
-			{
-				_putchar(i / 10 + '0');
-				_putchar(i % 10 + '0');
-				_putchar(' ');
-			}
+			printf(" Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf(" Buzz")'
+		}
+		else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz");
+		}
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
+		else
+		{
+			printf(" %d", i);
 		}
 	}
+	printf("\n");
+
+	return (0);
 }
